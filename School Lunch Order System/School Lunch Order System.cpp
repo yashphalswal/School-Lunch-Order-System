@@ -23,7 +23,7 @@ void displayAdminMenu() {
 
 int main() {
 
-    cout << "testing" << endl;
+    cout << "testing 123" << endl;
     displayMainMenu();
     return 0;
 }
