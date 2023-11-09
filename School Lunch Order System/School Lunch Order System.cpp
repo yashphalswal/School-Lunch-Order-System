@@ -1,8 +1,29 @@
-
 #include <iostream>
+#include "menu.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+#define MENU_H
+
+void displayMainMenu() {
+
 }
 
+void displayParentMenu() {
+
+}
+
+void displayStaffMenu() {
+
+}
+
+void displayAdminMenu() {
+
+}
+
+int main() {
+
+    cout << "testing" << endl;
+    displayMainMenu();
+    return 0;
+}
