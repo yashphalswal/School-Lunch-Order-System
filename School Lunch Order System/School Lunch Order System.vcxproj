@@ -131,6 +131,7 @@
     <ClCompile Include="School Lunch Order System.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="login.h" />
     <ClInclude Include="menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

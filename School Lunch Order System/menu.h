@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 #include <cstdlib>  
@@ -18,4 +19,16 @@ void displayMainMenu() {
 
      
     }
+}
+
+void displayParentMenu() {
+
+}
+
+void displayStaffMenu() {
+
+}
+
+void displayAdminMenu() {
+
 }

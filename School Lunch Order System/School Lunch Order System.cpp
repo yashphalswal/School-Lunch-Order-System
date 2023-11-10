@@ -1,29 +1,14 @@
 #include <iostream>
 #include "menu.h"
+#include "login.h"
 
 using namespace std;
 
-#define MENU_H
-
-void displayMainMenu() {
-
-}
-
-void displayParentMenu() {
-
-}
-
-void displayStaffMenu() {
-
-}
-
-void displayAdminMenu() {
-
-}
 
 int main() {
 
     cout << "testing" << endl;
+    IsLoggedIn();
     displayMainMenu();
     return 0;
 }
