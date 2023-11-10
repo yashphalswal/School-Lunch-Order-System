@@ -7,7 +7,8 @@ using namespace std;
 
 int main() {
 
-    cout << "testing" << endl;
+    cout << "testing 123" << endl;
+
     IsLoggedIn();
     displayMainMenu();
     return 0;
