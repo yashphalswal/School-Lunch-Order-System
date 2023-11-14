@@ -29,5 +29,12 @@
     <ClInclude Include="login.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="parents.txt" />
+    <Text Include="staffs.txt" />
   </ItemGroup>
 </Project>

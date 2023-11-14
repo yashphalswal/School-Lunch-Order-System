@@ -5,6 +5,10 @@
 
 using namespace std;
 
+void displayIntroductionScreen() {
+    cout << "\t  Welcome to the Lunch Box Application!" << endl;
+}
+
 void displayMainMenu() {
     int choice;
 
