@@ -13,7 +13,8 @@ int main() {
 
     cout << "\t testing" << endl;
 
-    
+   
+    parentRegistration();
 
     displayIntroductionScreen();
     IsLoggedIn();

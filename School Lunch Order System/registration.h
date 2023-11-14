@@ -94,7 +94,10 @@ void writeDataToFile(const vector<Parent>& parents, const vector<Staff>& staffs)
     staffFile.close();
 }
 
-void parentRegistration(vector<Parent>& parents) {
+
+
+void parentRegistration() {
+    vector<Parent> parents;
     Parent parent;
     cout << "Enter Full Name: ";
     cin.ignore();
@@ -119,6 +122,7 @@ void parentRegistration(vector<Parent>& parents) {
 
     cout << "Parent registration successful!" << endl;
     writeDataToFile(parents, {});
+
 }
 
 void staffRegistration(vector<Staff>& staffs) {
@@ -140,4 +144,12 @@ void staffRegistration(vector<Staff>& staffs) {
     cout << "Staff registration successful!" << endl;
     writeDataToFile({}, staffs);
 }
+
+
+
+
+
+
+
+
 
