@@ -13,10 +13,10 @@ int main() {
 
     cout << "\t testing" << endl;
 
-   
+    displayIntroductionScreen();
     parentRegistration();
 
-    displayIntroductionScreen();
+    
     IsLoggedIn();
     displayMainMenu();
     return 0;

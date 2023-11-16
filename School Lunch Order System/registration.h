@@ -83,13 +83,13 @@ void writeDataToFile(const vector<Parent>& parents, const vector<Staff>& staffs)
     ofstream staffFile("staffs.txt");
 
     for (const auto& parent : parents) {
-        parentFile << parent.fullName << "," << parent.gender << " " << parent.dob << " " << parent.contactNo << " "
-            << parent.childName << " " << parent.roomNo << " " << parent.visaCardNo << " " << parent.expiryDate << endl;
+        parentFile << parent.fullName << "," << parent.gender << "," << parent.dob << "," << parent.contactNo << ","
+            << parent.childName << "," << parent.roomNo << "," << parent.visaCardNo << "," << parent.expiryDate << endl;
     }
     parentFile.close();
 
     for (const auto& staff : staffs) {
-        staffFile << staff.fullName << "," << staff.gender << " " << staff.dob << " " << staff.visaCardNo << " " << staff.expiryDate << endl;
+        staffFile << staff.fullName << "," << staff.gender << "," << staff.dob << "," << staff.visaCardNo << "," << staff.expiryDate << endl;
     }
     staffFile.close();
 }
@@ -97,6 +97,7 @@ void writeDataToFile(const vector<Parent>& parents, const vector<Staff>& staffs)
 
 
 void parentRegistration() {
+    system("cls");
     vector<Parent> parents;
     Parent parent;
     cout << "Enter Full Name: ";
